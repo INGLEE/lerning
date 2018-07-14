@@ -34,6 +34,7 @@ def rJocket():
 
 menubar.add_command(label = 'python',command = rJocket)
 
+# 请求弹出菜单
 def pop(event):
 	menubar.post(event.x_root,event.y_root)
 
