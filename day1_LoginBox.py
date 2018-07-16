@@ -3,6 +3,7 @@
 	day1.py
 '''
 from tkinter import *
+from tkinter.ttk import *
 ########################################################################
 '''
 event
@@ -54,7 +55,7 @@ def cls2(event):
 
 
 Label(root,text="账号：").grid(row=0,sticky=W)
-entry1=Entry(root,textvariable=e,fg='#7f7f7f')
+entry1=Entry(root,textvariable=e)
 e.set("input your name here")
 entry1.bind('<Button-1>',cls1)
 # entry1.selection_clear()
@@ -121,3 +122,4 @@ fill 参数可以是 X,Y,BOTH 和 NONE,即在水平方向填充，竖直方向�
 *************** 总结 **************
 1. 由于 place 我不推荐大家用，也就 pack 和 grid 布局好一些。
 2. 但是 pack 和 grid 不能同时用，通常对于较为复杂点的，我还是建议大家用 gird 。
+'''
