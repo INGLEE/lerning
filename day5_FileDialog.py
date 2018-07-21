@@ -20,4 +20,4 @@ Button(text= 'File Open',command =callback_1).pack(fill='x')
 
 Button(text= 'Color Selector',command =callback_2).pack(side=LEFT,padx=10)
 
-mainloop()
+mainloop() 
