@@ -10,4 +10,4 @@ for c in colours:
 	Entry(bg =c ,relief =SUNKEN,width =10).grid(row = r,column = 1)
 	r +=1
 
-mainloop()
+mainloop() 
