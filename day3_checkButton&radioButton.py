@@ -1,6 +1,6 @@
 '''
 checkbutton 多选按钮
-radiobutton 单选按钮
+radiobutton 单选按钮 
 在菜单中，也有类似的概念，即单选菜单和复选菜单。它们分别用 add_radiobutton 和 add_checkbutton 来分别添加。
 
 这两种菜单都是如果一旦被选定，那么前面会有一个√的标记出现， checkbutton 可以多个同时被选定，
