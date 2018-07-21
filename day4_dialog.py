@@ -19,4 +19,4 @@ def confirm():
 b1 = Button(None,text ="确定",command = confirm)
 b1.pack()
 b2 = Button(None,text ="取消",command =b1.quit).pack()
-b1.mainloop()
+b1.mainloop() 
