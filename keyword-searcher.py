@@ -105,7 +105,7 @@ class Searcher(Frame):
         # get active item from listbox
         path = self._listbox.get('active')
         print(path)
-
+ 
         # open nautilus with param path, before that, check your platform.
         if 'ubuntu' in (os.popen('uname -a').read()).lower():
             os.system('/usr/bin/nautilus {}'.format(path))
