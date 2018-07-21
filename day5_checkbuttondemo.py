@@ -34,5 +34,5 @@ b2.pack()
 
 l=Label(root,textvariable = e)
 
-l.pack()
+l.pack() 
 root.mainloop()
