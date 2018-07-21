@@ -33,4 +33,4 @@ root.overrideredirect(True)
 
 # geometry 函数来控制窗口大小，它接受一个字符串类型的参数，‘ width x height + xoffset + yoffset ’
 root.geometry("400x450+600+200")
-root.mainloop()
+root.mainloop() 
