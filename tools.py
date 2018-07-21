@@ -95,7 +95,7 @@ class Data_generate():
             res += str(hex(n)).lstrip("0x").zfill(2)
             num -= 1
         return res.upper()
-
+ 
     def data_order(self):
         num = simpledialog.askstring("顺序数据生成", '数据长度-起始（8-0-255）只有一个数，默认为数据长度')
         numn = 8
