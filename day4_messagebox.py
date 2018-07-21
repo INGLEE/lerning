@@ -1,5 +1,5 @@
 from tkinter import *
-from tkinter.messagebox import *
+from tkinter.messagebox import * 
 
 # 1.showinfo显示消息提示框 ,显示确定按钮，返回OK字符串；点击右上角x号，同样显示OK字符串
 showinfo(title="showinfo",message ="点燃梦想，就是现在")
