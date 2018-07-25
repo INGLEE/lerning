@@ -20,7 +20,7 @@ class MY_GUI():
 		self.init_window.geometry('1068x680+10+10')
 		# self.init_window['bg']='white'
 		# 设置工具小图标
-		self.init_window.iconbitmap("rongcard.ico")
+		self.init_window.iconbitmap("myicon.ico")
 
 		self.init_window.attributes('-alpha',0.9)# 虚化，值越小虚化程度越高
 		# 输入界面
